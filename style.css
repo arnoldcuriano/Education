@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.item {
+    background-color: navy;
+    padding: 20px;
+    color: white;
+    max-width: 500px;
+    border-radius: 0.25rem;
+}
+
+/* Button Styling */
+#incremnent-btn:hover {
+    background-color: green;
+    color: white;
+}
+
+#decrement-btn:hover {
+    background-color: red;
+    color: white;
+}
